@@ -2486,4 +2486,35 @@ nav ul li .active::after {
 
 
 
+.btop {
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 38px;
+    background: #f70068;
+    border: 2px solid #f70068;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btop i {
+    color: #fff;
+}
+
+.btop:hover {
+    background: transparent;
+    border: 2px solid #f70068;
+    border-color: #f70068;
+
+}
+
+.btop:hover i {
+    color: #f70068;
+}
+
 /* !!!!!!!!!!!!!!!!!!! footer-part !!!!!!!!!!!!!!!!!!!! */

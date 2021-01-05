@@ -9,7 +9,7 @@ $(window).scroll(function() {
       $(".menu").removeClass("fixed")
     }
   
-    if (scrollamount > 150) {
+    if (scrollamount > 1000) {
       $(".btop").fadeIn();
     } else {
       $(".btop").fadeOut();
