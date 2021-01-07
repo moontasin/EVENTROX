@@ -50,6 +50,10 @@ nav {
     z-index: 9999;
 }
 
+nav button i {
+    color: #fff;
+}
+
 nav ul li {
     padding-top: 10px;
 }
@@ -102,6 +106,7 @@ nav ul li .sea {
 }
 
 nav ul .button {
+    display: inline-block;
     position: relative;
     margin-left: 30px;
     padding: 10px 20px;
@@ -151,6 +156,53 @@ nav ul .button:hover::before {
 nav ul li .active::after {
     transform: scale(1);
     opacity: 1;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li ul {
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    width: 220px;
+    z-index: 100;
+    padding: 20px 0px;
+    background: #ffffff;
+    border-bottom: 3px solid #f20487;
+    border-radius: 0 0 6px 6px;
+    box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0px 5px 1px rgba(0, 0, 0, 0.05);
+    opacity: 0;
+    visibility: hidden;
+    cursor: pointer;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    transition: .6s;
+}
+
+nav ul li ul li a {
+    padding: 5px 25px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #222222;
+    opacity: 1;
+    text-align: center;
+    transition: .4s;
+    text-decoration: none !important;
+}
+
+nav ul li ul li a:hover {
+    color: #f20487;
+}
+
+nav ul li:hover>ul {
+    opacity: 1;
+    visibility: visible;
+    transform: rotateX(0deg);
+
 }
 
 .fixed {
@@ -548,9 +600,9 @@ nav ul li .active::after {
 
 /* !!!!!!!!!!!!!!!!!!! about-part !!!!!!!!!!!!!!!!!!!!! */
 
-/* !!!!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!! features-part!!!!!!!!!!!!!!!!!!!!! */
 #features {
-    margin-top: 300px;
+    padding-top: 300px;
 }
 
 #features .text {
@@ -566,6 +618,7 @@ nav ul li .active::after {
     background-clip: text;
     text-transform: uppercase;
     letter-spacing: 5px;
+
 }
 
 #features .text h1 {
@@ -592,8 +645,8 @@ nav ul li .active::after {
     color: #f14b59;
     font-size: 55px;
     position: absolute;
-    left: 28px;
     top: 50px;
+    left: 28px;
     display: block;
     margin-bottom: 30px;
     transition: .4s;
@@ -616,6 +669,11 @@ nav ul li .active::after {
     color: #12114a;
     font-weight: 700;
     margin-bottom: 10px;
+    transition: .4s;
+}
+
+#features .box10 h3:hover {
+    color: #f14b59;
 }
 
 #features .box10 p {
@@ -624,13 +682,12 @@ nav ul li .active::after {
     line-height: 24px;
     color: #888888;
     font-weight: 400;
-    cursor: default;
 
 }
 
-/* !!!!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!! features-part!!!!!!!!!!!!!!!!!!!!! */
 
-/* !!!!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!! speakers-part!!!!!!!!!!!!!!!!!!!!! */
 
 #speakers {
     margin-top: 50px;
@@ -642,7 +699,7 @@ nav ul li .active::after {
     width: 100%;
     height: 100%;
     background-color: rgba(28, 139, 210, .50);
-    padding: 100px 100px;
+    padding: 100px 0;
 }
 
 #speakers .overlay .title {
@@ -781,7 +838,7 @@ nav ul li .active::after {
     color: #ffffff;
 }
 
-/* !!!!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!!!!!! */
+/* !!!!!!!!!!!!!!!!!!! speakers-part!!!!!!!!!!!!!!!!!!!!! */
 
 /* !!!!!!!!!!!!!!!!!!! count-part !!!!!!!!!!!!!!!!!!!!! */
 
@@ -917,11 +974,11 @@ nav ul li .active::after {
 
 }
 
-#plan .tabs .item-all{
-    text-align: center;
+#plan .tabs ul {
+    padding-left: 168px;
 }
 
-#plan .tabs .item {
+#plan ul li a {
     display: inline-block;
     height: 135px;
     width: 160px;
@@ -942,7 +999,7 @@ nav ul li .active::after {
     transition: .4s;
 }
 
-#plan .tabs .item .day {
+#plan ul li a .day {
     position: absolute;
     left: 0px;
     top: 30px;
@@ -956,7 +1013,7 @@ nav ul li .active::after {
     border-radius: 0 15px 15px 0;
 }
 
-#plan .tabs .item .date {
+#plan ul li a .date {
     position: absolute;
     left: -0;
     top: 80px;
@@ -968,7 +1025,7 @@ nav ul li .active::after {
     font-weight: 600;
 }
 
-#plan .tabs .item .month {
+#plan ul li a .month {
     display: block;
     font-family: 'Poppins', sans-serif;
     font-size: 20px;
@@ -977,80 +1034,82 @@ nav ul li .active::after {
     text-transform: uppercase;
 }
 
-#plan .tabs .item .day {
+#plan ul li a .item .day {
     background-color: #ffc20b;
 }
 
-#plan .tabs .item .date {
+#plan ul li a .item .date {
     color: #ffc20b;
 }
 
-#plan .tabs .item .month {
+#plan ul li a .item .month {
     color: #ffc20b;
 }
 
-#plan .tabs .item:hover {
+#plan ul .one a.active {
     box-shadow: 0 0px 30px rgba(255, 194, 11, .30);
     border: 1px solid #ffc20b;
 }
 
-#plan .tabs .item1:hover {
+#plan ul li a .item1 .day {
+    background-color: #40cbb4;
+}
+
+#plan ul li a .item1 .date {
+    color: #40cbb4;
+}
+
+#plan ul li a .item1 .month {
+    color: #40cbb4;
+}
+
+#plan ul .two a.active {
     box-shadow: 0 0px 30px rgba(64, 203, 180, .30);
     border: 1px solid #40cbb4;
 }
 
-#plan .tabs .item1 .day {
-    background-color: #40cbb4;
+
+#plan ul li a .item2 .day {
+    background-color: #4c35a9;
 }
 
-#plan .tabs .item1 .date {
-    color: #40cbb4;
+#plan ul li a .item2 .date {
+    color: #4c35a9;
 }
 
-#plan .tabs .item1 .month {
-    color: #40cbb4;
+#plan ul li a .item2 .month {
+    color: #4c35a9;
 }
 
-
-#plan .tabs .item2:hover {
+#plan ul .three a.active {
     box-shadow: 0 0px 30px rgba(76, 53, 169, .30);
     border: 1px solid #4c35a9;
 }
 
-#plan .tabs .item2 .day {
-    background-color: #4c35a9;
+#plan ul li a .item3 .day {
+    background-color: #e6275a;
 }
 
-#plan .tabs .item2 .date {
-    color: #4c35a9;
+#plan ul li a .item3 .date {
+    color: #e6275a;
 }
 
-#plan .tabs .item2 .month {
-    color: #4c35a9;
+#plan ul li a .item3 .month {
+    color: #e6275a;
 }
 
-
-#plan .tabs .item3:hover {
+#plan ul .four a.active {
     box-shadow: 0 0px 30px rgba(230, 39, 90, .30);
     border: 1px solid #e6275a;
 }
 
-#plan .tabs .item3 .day {
-    background-color: #e6275a;
-}
-
-#plan .tabs .item3 .date {
-    color: #e6275a;
-}
-
-#plan .tabs .item3 .month {
-    color: #e6275a;
+#plan .tabs .web {
+    margin-top: 40px;
+    margin-bottom: 80px;
 }
 
 #plan .tabs .full {
     position: relative;
-    margin-top: 40px;
-    margin-bottom: 80px;
 }
 
 #plan .tabs .full1 {
@@ -1059,12 +1118,14 @@ nav ul li .active::after {
     margin-top: 193px;
     margin-bottom: 80px;
 }
+
 #plan .tabs .full2 {
     position: relative;
     text-align: left;
     margin-top: 193px;
     margin-bottom: 80px;
 }
+
 #plan .tabs .full3 {
     position: relative;
     text-align: right;
@@ -1097,9 +1158,11 @@ nav ul li .active::after {
 #plan .tabs .full1 .two {
     border: 2px dashed #40cbb4;
 }
+
 #plan .tabs .full2 .two {
     border: 2px dashed #4c35a9;
 }
+
 #plan .tabs .full3 .two {
     border: 2px dashed #e6275a;
 }
@@ -1121,9 +1184,11 @@ nav ul li .active::after {
 #plan .tabs .full1 .two::before {
     border-left: 2px dashed #40cbb4;
 }
+
 #plan .tabs .full2 .two::before {
     border-left: 2px dashed #4c35a9;
 }
+
 #plan .tabs .full3 .two::before {
     border-left: none;
 }
@@ -1196,8 +1261,8 @@ nav ul li .active::after {
 
 #plan .tabs .full1 .ieam30 .text::before {
     position: absolute;
-    top: 15px;  
-    left: 107%;    
+    top: 15px;
+    left: 107%;
     border-top: 15px solid transparent;
     border-left: 20px solid #ffffff;
     border-right: 0;
@@ -1225,8 +1290,8 @@ nav ul li .active::after {
 
 #plan .tabs .full3 .ieam30 .text::before {
     position: absolute;
-    top: 15px;  
-    left: 107%;    
+    top: 15px;
+    left: 107%;
     border-top: 15px solid transparent;
     border-left: 20px solid #ffffff;
     border-right: 0;
@@ -1251,6 +1316,7 @@ nav ul li .active::after {
     padding-left: 80px;
     padding-top: 6px;
 }
+
 #plan .tabs .full3 .ieam30 .text .name {
     position: relative;
     padding-right: 80px;
@@ -1292,6 +1358,7 @@ nav ul li .active::after {
     border-radius: 50%;
     overflow: hidden;
 }
+
 #plan .tabs .full2 .ieam30 .text {
     position: relative;
 }
@@ -1305,6 +1372,7 @@ nav ul li .active::after {
     border-radius: 50%;
     overflow: hidden;
 }
+
 #plan .tabs .full3 .ieam30 .text {
     position: relative;
 }
@@ -1334,12 +1402,15 @@ nav ul li .active::after {
 #plan .tabs .full .ieam30 .text h4:hover {
     color: #ffc20b;
 }
+
 #plan .tabs .full1 .ieam30 .text h4:hover {
     color: #40cbb4;
 }
+
 #plan .tabs .full2 .ieam30 .text h4:hover {
     color: #4c35a9;
 }
+
 #plan .tabs .full3 .ieam30 .text h4:hover {
     color: #e6275a;
 }
@@ -1373,12 +1444,15 @@ nav ul li .active::after {
 #plan .tabs .full .ieam30 .text .button a {
     background: #ffc20b;
 }
+
 #plan .tabs .full1 .ieam30 .text .button a {
     background: #40cbb4;
 }
+
 #plan .tabs .full2 .ieam30 .text .button a {
     background: #4c35a9;
 }
+
 #plan .tabs .full3 .ieam30 .text .button a {
     background: #e6275a;
 }
@@ -1400,6 +1474,7 @@ nav ul li .active::after {
     border-bottom: 2px solid #40cbb4;
     border-color: #40cbb4;
 }
+
 #plan .tabs .full2 .ieam30 .text .button a:hover {
     color: #4c35a9 !important;
     border-radius: 0px;
@@ -1408,6 +1483,7 @@ nav ul li .active::after {
     border-bottom: 2px solid #4c35a9;
     border-color: #4c35a9;
 }
+
 #plan .tabs .full3 .ieam30 .text .button a:hover {
     color: #e6275a !important;
     border-radius: 0px;
@@ -1758,6 +1834,10 @@ nav ul li .active::after {
 #eventrox {
     background-color: #fafafa;
     padding: 120px 0 70px;
+}
+
+#eventrox .img img {
+    width: 100%;
 }
 
 #eventrox .text h3 {
@@ -2483,8 +2563,6 @@ nav ul li .active::after {
 #footer .copyright p span:hover {
     color: #f70068;
 }
-
-
 
 .btop {
     position: fixed;

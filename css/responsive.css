@@ -1,0 +1,845 @@
+@media (min-width:320px) and (max-width:575px) {
+    /* --------menu-part------- */
+
+    nav ul {
+        background: #ffffff;
+
+    }
+
+    nav ul li a {
+        color: #222222 !important;
+        transition: .4s;
+    }
+
+    nav ul li a::after {
+        width: 0 !important;
+    }
+
+    nav ul li i {
+        color: #222222 !important;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a:hover {
+        color: #f20487 !important;
+    }
+
+    nav ul .button {
+        margin-bottom: 20px;
+        width: 130px;
+    }
+
+    /* --------menu-part------- */
+
+
+    /* --------banner-part------- */
+
+    #banner .overlay .text h3 {
+        font-size: 22px;
+    }
+
+    #banner .overlay .text h1 {
+        font-size: 37px;
+    }
+
+    #banner .overlay .button {
+        margin-left: 0;
+    }
+
+    /* --------banner-part------- */
+    /* ---------counter-part------- */
+
+    #counter .countdown .time {
+        padding: 0;
+        margin-left: 15px;
+    }
+
+    #counter .countdown h2 {
+        font-size: 30px;
+    }
+
+    #counter .countdown h3 {
+        font-size: 15px;
+    }
+
+    /* ---------counter-part------- */
+
+    /* ---------about-part------- */
+    #about {
+        padding-top: 100px;
+    }
+
+    #about .text h1 {
+        font-size: 30px;
+    }
+
+    #about .text p {
+        width: auto;
+        font-size: 13px;
+    }
+
+    #about .text .button {
+        margin-bottom: 30px;
+    }
+
+    /* ---------about-part------- */
+
+    /* ---------features-part------- */
+    #features .box10 i {
+        position: unset;
+        margin-bottom: 20px;
+    }
+
+    #features .box10 {
+        padding-left: 0;
+        text-align: center;
+        padding: 35px 20px;
+
+    }
+
+    /* ---------features-part------- */
+
+    /* ---------speakers-part------- */
+
+    #speakers .overlay .item {
+        margin-bottom: 40px;
+    }
+
+    #speakers .overlay .img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* ---------speakers-part------- */
+
+    /* ---------plan-part------- */
+    #plan {
+        padding: 120px 0 1px;
+    }
+
+    #plan .tabs ul {
+        padding-left: 60px;
+    }
+
+    #plan .tabs .date1 {
+        position: unset;
+        width: 0 !important;
+        height: 0 !important;
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+        opacity: 0;
+
+    }
+
+    #plan .tabs .web {
+        padding-bottom: 0;
+    }
+
+    #plan .tabs .full .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0 !important;
+
+
+    }
+
+    #plan .tabs .full1 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full1 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full3 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 .ieam30 {
+        position: unset;
+        width: auto;
+
+    }
+
+    #plan .tabs .full3 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full .ieam30 .text .p1 {
+        width: auto;
+
+    }
+
+    #plan .tabs .full .date1::before {
+        position: unset;
+        content: unset;
+        margin: 0;
+    }
+
+    #plan .tabs .full1 .ieam30 .text::before {
+        left: 111%;
+    }
+
+    #plan .tabs .full3 .ieam30 .text::before {
+        left: 111%;
+    }
+
+    /* ---------plan-part------- */
+
+    /* ---------get-ticket-part------- */
+
+    #get-ticket .item {
+        margin-bottom: 20px;
+    }
+
+    /* ---------get-ticket-part------- */
+
+    /* ---------watch-part------- */
+
+    #watch .overlay .text p {
+        font-size: 25px;
+    }
+
+    /* ---------watch-part------- */
+
+    /* ---------eventrox-part------- */
+
+    #eventrox .text h3 {
+        margin-top: 40px;
+    }
+
+    #eventrox .text p {
+        width: auto;
+    }
+
+    #eventrox .text ul li {
+        padding: 0;
+    }
+
+    /* ---------eventrox-part------- */
+
+    /* ---------sponsors-part------- */
+
+    #sponsors .img {
+        margin-bottom: 15px;
+    }
+
+    /* ---------sponsors-part------- */
+
+    /* ---------form-part-part------- */
+
+    #form-part .img p {
+        width: auto;
+    }
+
+    #form-part .button {
+        margin-left: 63px;
+    }
+
+    /* ---------form-part-part------- */
+
+    /* ---------news-part------- */
+
+    #news .items .newss {
+        margin-top: 20px;
+    }
+
+    /* ---------news-part------- */
+
+    /* ---------footer-part------- */
+
+    #footer .item1 .text p {
+        width: auto;
+    }
+
+    #footer .copyright p {
+        font-size: 14px;
+    }
+
+    /* ---------footer-part------- */
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    /* --------menu-part------- */
+
+    nav ul {
+        background: #ffffff;
+
+    }
+
+    nav ul li a {
+        color: #222222 !important;
+        transition: .4s;
+    }
+
+    nav ul li a::after {
+        width: 0 !important;
+    }
+
+    nav ul li i {
+        color: #222222 !important;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a:hover {
+        color: #f20487 !important;
+    }
+
+    nav ul .button {
+        margin-bottom: 20px;
+        width: 130px;
+    }
+
+    /* --------menu-part------- */
+
+
+    /* --------banner-part------- */
+
+    #banner .overlay .text h3 {
+        font-size: 26px;
+    }
+
+    #banner .overlay .text h1 {
+        font-size: 50px;
+    }
+
+    #banner .overlay .button {
+        margin-left: 0;
+    }
+
+    /* --------banner-part------- */
+    /* ---------counter-part------- */
+
+    #counter .countdown .time {
+        padding: 0;
+        margin-left: 25px;
+    }
+
+    #counter .countdown h2 {
+        font-size: 30px;
+    }
+
+    #counter .countdown h3 {
+        font-size: 15px;
+    }
+
+    /* ---------counter-part------- */
+
+    /* ---------about-part------- */
+    #about {
+        padding-top: 100px;
+    }
+
+    #about .text h1 {
+        font-size: 30px;
+    }
+
+    #about .text p {
+        width: auto;
+        font-size: 13px;
+    }
+
+    #about .text .button {
+        margin-bottom: 30px;
+    }
+
+    /* ---------about-part------- */
+
+    /* ---------features-part------- */
+
+    #features .box10 i {
+        position: unset;
+        margin-bottom: 20px;
+    }
+
+    #features .box10 {
+        padding-left: 0;
+        text-align: center;
+        padding: 35px 20px;
+
+    }
+
+    /* ---------features-part------- */
+
+    /* ---------speakers-part------- */
+
+    #speakers .overlay .item {
+        margin-bottom: 40px;
+    }
+
+    #speakers .overlay .img {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    /* ---------speakers-part------- */
+    /* ---------plan-part------- */
+    #plan {
+        padding: 120px 0 1px;
+    }
+
+    #plan .tabs ul {
+        padding-left: 60px;
+    }
+
+    #plan .tabs .date1 {
+        position: unset;
+        width: 0 !important;
+        height: 0 !important;
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+        opacity: 0;
+
+    }
+
+    #plan .tabs .web {
+        padding-bottom: 0;
+    }
+
+    #plan .tabs .full .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0 !important;
+
+
+    }
+
+    #plan .tabs .full1 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full1 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full3 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 .ieam30 {
+        position: unset;
+        width: auto;
+
+    }
+
+    #plan .tabs .full3 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full .ieam30 .text .p1 {
+        width: auto;
+
+    }
+
+    #plan .tabs .full .date1::before {
+        position: unset;
+        content: unset;
+        margin: 0;
+    }
+
+    #plan .tabs .full1 .ieam30 .text::before {
+        left: 106%;
+    }
+
+    #plan .tabs .full3 .ieam30 .text::before {
+        left: 106%;
+    }
+
+    /* ---------plan-part------- */
+
+    /* ---------get-ticket-part------- */
+
+    #get-ticket .item {
+        margin-bottom: 20px;
+    }
+
+    /* ---------get-ticket-part------- */
+
+    /* ---------watch-part------- */
+
+    #watch .overlay .text p {
+        font-size: 25px;
+    }
+
+    /* ---------watch-part------- */
+
+    /* ---------eventrox-part------- */
+
+    #eventrox .text h3 {
+        margin-top: 40px;
+    }
+
+    #eventrox .text p {
+        width: auto;
+    }
+
+    #eventrox .text ul li {
+        padding: 0;
+    }
+
+    /* ---------eventrox-part------- */
+
+    /* ---------sponsors-part------- */
+
+    #sponsors .img {
+        margin-bottom: 15px;
+    }
+
+    /* ---------sponsors-part------- */
+
+    /* ---------form-part-part------- */
+
+    #form-part .img p {
+        width: auto;
+    }
+
+    #form-part .button {
+        margin-left: 175px;
+    }
+
+    /* ---------form-part-part------- */
+
+    /* ---------news-part------- */
+
+    #news .items .newss {
+        margin-top: 20px;
+    }
+
+    /* ---------news-part------- */
+
+    /* ---------footer-part------- */
+
+    #footer .item1 .text p {
+        width: auto;
+    }
+
+    #footer .copyright p {
+        font-size: 14px;
+    }
+
+    /* ---------footer-part------- */
+
+
+
+
+
+
+
+
+
+
+}
+
+@media (min-width:768px) and (max-width:991px) {
+    /* --------menu-part------- */
+
+    nav ul {
+        background: #ffffff;
+
+    }
+
+    nav ul li a {
+        color: #222222 !important;
+        transition: .4s;
+    }
+
+    nav ul li a::after {
+        width: 0 !important;
+    }
+
+    nav ul li i {
+        color: #222222 !important;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a:hover {
+        color: #f20487 !important;
+    }
+
+    nav ul .button {
+        margin-bottom: 20px;
+        width: 130px;
+    }
+
+    /* --------menu-part------- */
+
+    /* ---------features-part------- */
+
+    #features .box10 i {
+        position: unset;
+        margin-bottom: 20px;
+    }
+
+    #features .text{
+        width: 47%;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #features .box10 {
+        padding-left: 0;
+        text-align: center;
+        padding: 35px 20px;
+        width: 47%;
+        float: left;
+        margin-left: 20px;
+
+    }
+
+    /* ---------features-part------- */
+    
+    /* ---------count-part------- */
+    #count .item{
+        width: 22%;
+        margin-left: 20px;
+    }
+    /* ---------count-part------- */
+
+    /* ---------speakers-part------- */
+
+    #speakers .overlay .img {
+        width: 300px;
+        margin: 0 auto;
+        float: left;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+
+    /* ---------speakers-part------- */
+
+    /* ---------plan-part------- */
+    #plan {
+        padding: 120px 0 1px;
+    }
+
+    #plan .tabs ul {
+        padding-left: 60px;
+    }
+    
+    #plan .tabs ul li a{
+        margin: 0 65px 27px;
+    }
+
+    #plan .tabs .date1 {
+        position: unset;
+        width: 0 !important;
+        height: 0 !important;
+        background: none !important;
+        border: none !important;
+        padding: 0 !important;
+        opacity: 0;
+
+    }
+
+    #plan .tabs .web {
+        padding-bottom: 0;
+    }
+
+    #plan .tabs .full .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0 !important;
+
+
+    }
+
+    #plan .tabs .full1 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full1 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full3 {
+        margin-bottom: 20px;
+        margin-top: 0;
+    }
+
+    #plan .tabs .full2 .ieam30 {
+        position: unset;
+        width: auto;
+
+    }
+
+    #plan .tabs .full3 .ieam30 {
+        position: unset;
+        width: auto;
+        margin: 0;
+    }
+
+    #plan .tabs .full .ieam30 .text .p1 {
+        width: auto;
+
+    }
+
+    #plan .tabs .full .date1::before {
+        position: unset;
+        content: unset;
+        margin: 0;
+    }
+
+    #plan .tabs .full1 .ieam30 .text::before {
+        left: 104%;
+    }
+
+    #plan .tabs .full3 .ieam30 .text::before {
+        left: 104%;
+    }
+
+    /* ---------plan-part------- */
+
+    /* ---------get-ticket-part------- */
+
+    #get-ticket .item {
+        margin-bottom: 20px;
+    }
+
+    /* ---------get-ticket-part------- */
+
+    /* ---------watch-part------- */
+
+    #watch .overlay .text p {
+        font-size: 25px;
+    }
+
+    /* ---------watch-part------- */
+
+    /* ---------eventrox-part------- */
+
+    #eventrox .text h3 {
+        margin-top: 40px;
+    }
+
+    #eventrox .text p {
+        width: auto;
+    }
+
+    #eventrox .text ul li {
+        padding: 0;
+    }
+
+    /* ---------eventrox-part------- */
+
+    /* ---------sponsors-part------- */
+
+    #sponsors .img {
+        margin-bottom: 15px;
+        
+        
+    }
+    #sponsors .div{
+        width: 50%;
+        float: left !important;
+    }
+
+    /* ---------sponsors-part------- */
+
+    /* ---------form-part-part------- */
+
+    #form-part .img p {
+        width: auto;
+    }
+
+    #form-part .button {
+        margin-left: 285px;
+    }
+
+    /* ---------form-part-part------- */
+
+    /* ---------news-part------- */
+
+    #news .items .newss {
+        margin-top: 20px;
+        
+    }
+    #news .items .blog{
+        width: 50%;
+        float: left;
+    }
+
+    /* ---------news-part------- */
+
+    /* ---------footer-part------- */
+
+    #footer .item1 .text p {
+        width: auto;
+    }
+    #footer .full .foo{
+        width: 50%;
+        float: left;
+    }
+
+    #footer .copyright p {
+        font-size: 14px;
+    }
+
+    /* ---------footer-part------- */
+
+
+
+
+
+
+
+
+
+
+}

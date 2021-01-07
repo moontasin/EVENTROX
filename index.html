@@ -17,11 +17,13 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/venobox.css">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+
 
 </head>
 
@@ -29,7 +31,7 @@
 
   <!-- !!!!!!!!!!!!!!!!! menu-part !!!!!!!!!!!!!!!!!!!! -->
 
-  <nav class="navbar navbar-expand-lg menu ">
+  <nav class="navbar navbar-expand-lg menu">
     <div class="container">
       <a class="navbar-brand lo wow hinge" href="#">
         <img src="images/logo.png" alt="logo">
@@ -39,25 +41,32 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
       </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse navber" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto manu wow fadeInRightBig">
           <li class="nav-item">
             <a class="nav-link  active" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">about</a>
+            <a class="nav-link" href="#about">about</a>
+            <ul>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">FAQ's</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Coming Soon</a></li>
+            </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">feature</a>
+            <a class="nav-link" href="#features">feature</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">speakers</a>
+            <a class="nav-link" href="#speakers">speakers</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">get-ticket</a>
+            <a class="nav-link" href="#get-ticket">get-ticket</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">contact</a>
+            <a class="nav-link" href="#footer">contact</a>
           </li>
           <li class="nav-item">
             <i class="fa fa-search sea" aria-hidden="true"></i>
@@ -128,7 +137,7 @@
 
   <!-- !!!!!!!!!!!!!!!!! banner-part !!!!!!!!!!!!!!!!!!!! -->
 
-  <!-- !!!!!!!!!!!!!!!!! counter-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! counter-part !!!!!!!!!!!!!!!!!!! -->
 
   <section id="counter">
     <div class="container">
@@ -161,7 +170,7 @@
     </div>
   </section>
 
-  <!-- !!!!!!!!!!!!!!!!! counter-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! counter-part !!!!!!!!!!!!!!!!!! -->
 
   <!-- !!!!!!!!!!!!!!!!! about-part !!!!!!!!!!!!!!!!!!!! -->
 
@@ -205,7 +214,7 @@
 
   <!-- !!!!!!!!!!!!!!!!! about-part !!!!!!!!!!!!!!!!!!!! -->
 
-  <!-- !!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!! -->
 
   <section id="features">
     <div class="container">
@@ -251,9 +260,9 @@
     </div>
   </section>
 
-  <!-- !!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! features-part !!!!!!!!!!!!!!!!!! -->
 
-  <!-- !!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!!! -->
 
   <section id="speakers">
     <div class="overlay">
@@ -264,113 +273,129 @@
         </div>
         <div class="row">
           <div class="col-lg-3">
-            <div class="img wow slideInLeft">
-              <img src="images/speaker-1.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Dale Marke</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow slideInLeft">
+                <img src="images/speaker-1.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Dale Marke</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="img wow bounceInDown" data-wow-delay="1s">
-              <img src="images/speaker-5.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Kenyetta Lesley</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="img wow bounceInUp" data-wow-delay=".5s">
-              <img src="images/speaker-2.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Natisha Decoux</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
-                </div>
-              </div>
-            </div>
-            <div class="img wow flipInY" data-wow-delay="1.5s">
-              <img src="images/speaker-6.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Shelly Verghese</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow bounceInDown" data-wow-delay="1s">
+                <img src="images/speaker-5.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Kenyetta Lesley</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="img wow rotateIn" data-wow-delay="2s">
-              <img src="images/speaker-3.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Adolfo Plahs</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow bounceInUp" data-wow-delay=".5s">
+                <img src="images/speaker-2.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Natisha Decoux</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="img wow wobble" data-wow-delay="2.5s">
-              <img src="images/speaker-7.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Cassandra Kopka</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow flipInY" data-wow-delay="1.5s">
+                <img src="images/speaker-6.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Shelly Verghese</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
           <div class="col-lg-3">
-            <div class="img wow slideInRight">
-              <img src="images/speaker-4.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Mitchell Heggestad</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow rotateIn" data-wow-delay="2s">
+                <img src="images/speaker-3.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Adolfo Plahs</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="img wow rollIn" data-wow-delay="2s">
-              <img src="images/speaker-8.jpg" alt="speaker">
-              <div class="overlays">
-                <h4>Eugene Clumpner</h4>
-                <p>Event Manager</p>
-                <div class="icon">
-                  <i class="fa fa-facebook fc" aria-hidden="true"></i>
-                  <i class="fa fa-twitter tw" aria-hidden="true"></i>
-                  <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
-                  <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+            <div class="item">
+              <div class="img wow wobble" data-wow-delay="2.5s">
+                <img src="images/speaker-7.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Cassandra Kopka</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="item">
+              <div class="img wow slideInRight">
+                <img src="images/speaker-4.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Mitchell Heggestad</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="img wow rollIn" data-wow-delay="2s">
+                <img src="images/speaker-8.jpg" alt="speaker">
+                <div class="overlays">
+                  <h4>Eugene Clumpner</h4>
+                  <p>Event Manager</p>
+                  <div class="icon">
+                    <i class="fa fa-facebook fc" aria-hidden="true"></i>
+                    <i class="fa fa-twitter tw" aria-hidden="true"></i>
+                    <i class="fa fa-pinterest-p pi" aria-hidden="true"></i>
+                    <i class="fa fa-dribbble dr" aria-hidden="true"></i>
+                  </div>
                 </div>
               </div>
             </div>
@@ -380,14 +405,14 @@
     </div>
   </section>
 
-  <!-- !!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! speakers-part !!!!!!!!!!!!!!!!! -->
 
   <!-- !!!!!!!!!!!!!!!!! count-part !!!!!!!!!!!!!!!!!!!! -->
 
   <section id="count">
     <div class="container">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 item">
           <div class="icon">
             <i class="fa fa-headphones he" aria-hidden="true"></i>
             <div class="text">
@@ -396,7 +421,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 item">
           <div class="icon">
             <i class="fa fa-trophy tr" aria-hidden="true"></i>
             <div class="text">
@@ -405,7 +430,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 item">
           <div class="icon">
             <i class="fa fa-thumbs-o-up th" aria-hidden="true"></i>
             <div class="text">
@@ -414,7 +439,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 item">
           <div class="icon">
             <i class="fa fa-book bo" aria-hidden="true"></i>
             <div class="text">
@@ -440,11 +465,165 @@
     </div>
     <div class="container">
       <div class="tabs">
-       <div class="item-all">
-        <div class="item">
-          <span class="day">Day 01</span>
-          <span class="date">01</span>
-          <span class="month">jan</span>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item one" role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab"
+              aria-controls="pills-home" aria-selected="true">
+              <div class="item">
+                <span class="day">Day 01</span>
+                <span class="date">01</span>
+                <span class="month">jan</span>
+                2020
+              </div>
+            </a>
+          </li>
+          <li class="nav-item two" role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab"
+              aria-controls="pills-profile" aria-selected="false">
+              <div class="item item1">
+                <span class="day">Day 02</span>
+                <span class="date">02</span>
+                <span class="month">jan</span>
+                2020
+              </div>
+            </a>
+          </li>
+          <li class="nav-item three" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab"
+              aria-controls="pills-contact" aria-selected="false">
+              <div class="item item2">
+                <span class="day">Day 03</span>
+                <span class="date">03</span>
+                <span class="month">jan</span>
+                2020
+              </div>
+            </a>
+          </li>
+          <li class="nav-item four" role="presentation">
+            <a class="nav-link" id="pills-about-tab" data-toggle="pill" href="#pills-about" role="tab"
+              aria-controls="pills-about" aria-selected="false">
+              <div class="item item3">
+                <span class="day">Day 04</span>
+                <span class="date">04</span>
+                <span class="month">jan</span>
+                2020
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="web">
+              <div class="full">
+                <div class="date1 two">
+                  9.00 AM <br> 10.00 AM
+                </div>
+                <div class="ieam30">
+                  <div class="text">
+                    <div class="img">
+                      <img src="images/thumb-1.jpg" alt="">
+                    </div>
+                    <div class="name">
+                      <h3>Ashli Scroggy</h3>
+                      <p>Founder & CEO</p>
+                    </div>
+                    <h4>Modern Marketing Summit Sydney 2018</h4>
+                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor
+                      incididunt
+                      labore et</p>
+                    <div class="button">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full full1">
+                <div class="date1 two">
+                  10.00 AM <br> 11.00 AM
+                </div>
+                <div class="ieam30">
+                  <div class="text">
+                    <div class="img">
+                      <img src="images/thumb-2.jpg" alt="">
+                    </div>
+                    <div class="name">
+                      <h3>Ashli Scroggy</h3>
+                      <p>Founder & CEO</p>
+                    </div>
+                    <h4>Modern Marketing Summit Sydney 2018</h4>
+                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor
+                      incididunt
+                      labore et</p>
+                    <div class="button">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full full2">
+                <div class="date1 two">
+                  11.00 AM <br> 12.00 AM
+                </div>
+                <div class="ieam30">
+                  <div class="text">
+                    <div class="img">
+                      <img src="images/thumb-1.jpg" alt="">
+                    </div>
+                    <div class="name">
+                      <h3>Ashli Scroggy</h3>
+                      <p>Founder & CEO</p>
+                    </div>
+                    <h4>Modern Marketing Summit Sydney 2018</h4>
+                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor
+                      incididunt
+                      labore et</p>
+                    <div class="button">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="full full3">
+                <div class="date1 two">
+                  12.00 AM <br> 01.00 AM
+                </div>
+                <div class="ieam30">
+                  <div class="text">
+                    <div class="img">
+                      <img src="images/thumb-2.jpg" alt="">
+                    </div>
+                    <div class="name">
+                      <h3>Ashli Scroggy</h3>
+                      <p>Founder & CEO</p>
+                    </div>
+                    <h4>Modern Marketing Summit Sydney 2018</h4>
+                    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmtempor
+                      incididunt
+                      labore et</p>
+                    <div class="button">
+                      <a href="#">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade show active" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+        </div>
+        <div class="tab-pane fade show active" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+        </div>
+        <div class="tab-pane fade show active" id="pills-about" role="tabpanel" aria-labelledby="pills-about-tab"></div>
+      </div>
+    </div>
+
+    <!-- <div class="tabs">
+          <div class="item-all">
+            <div class="item">
+              <span class="day">Day 01</span>
+              <span class="date">01</span>
+              <span class="month">jan</span>
           2020
         </div>
         <div class="item item1">
@@ -513,7 +692,7 @@
         </div>
         <div class="full full2">
           <div class="date1 two">
-            10.00 AM <br> 11.00 AM
+            11.00 AM <br> 12.00 AM
           </div>
           <div class="ieam30">
             <div class="text">
@@ -535,7 +714,7 @@
         </div>
         <div class="full full3">
           <div class="date1 two">
-            10.00 AM <br> 11.00 AM
+            12.00 AM <br> 01.00 AM
           </div>
           <div class="ieam30">
             <div class="text">
@@ -555,7 +734,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
@@ -670,7 +849,7 @@
 
   <!-- !!!!!!!!!!!!!!!!!! watch-part !!!!!!!!!!!!!!!!!!! -->
 
-  <!-- !!!!!!!!!!!!!!!!!! eventrox-part !!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!!!eventrox-part!!!!!!!!!!!!!!!!!!! -->
 
   <section id="eventrox">
     <div class="container">
@@ -706,8 +885,8 @@
     </div>
   </section>
 
-  <!-- !!!!!!!!!!!!!!!!!! eventrox-part !!!!!!!!!!!!!!!!!!! -->
-  <!-- !!!!!!!!!!!!!!!!!! sponsors-part !!!!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!! eventrox-part !!!!!!!!!!!!!!!!! -->
+  <!-- !!!!!!!!!!!!!!!!! sponsors-part !!!!!!!!!!!!!!!!! -->
 
   <section id="sponsors">
     <div class="container">
@@ -718,22 +897,22 @@
       <div class="item">
         <h4 class="he">platinum sponsors</h4>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser1.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser2.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser3.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser4.png" alt="eventrox">
             </div>
@@ -743,22 +922,22 @@
       <div class="item">
         <h4 class="hee">gold sponsors</h4>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser5.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser6.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser7.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser8.png" alt="eventrox">
             </div>
@@ -768,22 +947,22 @@
       <div class="item">
         <h4 class="heee">silber sponsors</h4>
         <div class="row">
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser9.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser10.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser11.png" alt="eventrox">
             </div>
           </div>
-          <div class="col-lg-3">
+          <div class="col-lg-3 div">
             <div class="img">
               <img src="images/sponser12.png" alt="eventrox">
             </div>
@@ -855,7 +1034,7 @@
     </div>
     <div class="container">
       <div class="row items">
-        <div class="col-lg-4">
+        <div class="col-lg-4 blog">
           <div class="newss">
             <div class="img">
               <img src="images/news-1.jpg" alt="">
@@ -874,7 +1053,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 blog">
           <div class="newss">
             <div class="img">
               <img src="images/news-2.jpg" alt="">
@@ -893,7 +1072,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4">
+        <div class="col-lg-4 blog">
           <div class="newss">
             <div class="img">
               <img src="images/news-3.jpg" alt="">
@@ -923,11 +1102,11 @@
     <a href="#"><i class="fa fa-angle-double-up" aria-hidden="true"></i>
     </a>
   </div>
-  
+
   <section id="footer">
     <div class="container">
       <div class="row full">
-        <div class="col-lg-4">
+        <div class="col-lg-4 foo">
           <div class="item1">
             <div class="img">
               <img src="images/logo.png" alt="footer">
@@ -946,7 +1125,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-2 foo">
           <div class="item2">
             <h3>Useful Links</h3>
             <ul>
@@ -959,7 +1138,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 foo">
           <div class="item3">
             <h3>Contact Us</h3>
             <ul>
@@ -973,7 +1152,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 foo">
           <div class="item4">
             <h3>Instagram Gallery</h3>
             <div class="img">
