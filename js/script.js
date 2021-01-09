@@ -1,3 +1,9 @@
+// preloder
+setTimeout(function(){
+$(".preloder").fadeOut()
+},2000)
+
+
 // ============stiky bar===============
 $(window).scroll(function () {
   var scrollamount = $(window).scrollTop()
